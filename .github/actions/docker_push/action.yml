@@ -2,10 +2,10 @@ name: docker-push
 description: Push a local image to Docker Hub
 inputs:
   docker_username:
-    description: "Docker Hub username (namespace)"
+    description: "Docker Hub username"
     required: true
   docker_image_ref:
-    description: "Local image reference (e.g., image_name:image_tag)"
+    description: "Local image reference"
     required: true
 
 runs:

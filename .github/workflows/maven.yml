@@ -46,4 +46,4 @@ jobs:
       uses: ./.github/actions/docker_push
       with:
         docker_username: ${{ secrets.DOCKERHUB_USERNAME }}
-        docker_image_ref: "academy:tag1"
+        docker_image_ref: "academy:$(date +%s)"
